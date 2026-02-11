@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(algorithms_and_ds
         main.cpp
-        sort.h)
+        sort.h
+        run.h
+        run.cpp)

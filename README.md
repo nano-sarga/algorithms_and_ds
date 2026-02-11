@@ -29,7 +29,7 @@ This process is repeated until the list is sorted.
 3. Move to the next pair and repeat.
 4. Continue this process until the array is sorted.
 
-
+![complete_bubble](https://github.com/user-attachments/assets/2589d1a1-4b44-4f6a-83b0-8ffd2c30fe51)
 
 ### Example in C++ 모
 ```cpp
@@ -37,8 +37,7 @@ template <typename T>
 void bubble_sort(T arr[], int size) {
     bool swapped = false;
     do {
-        swapped = false;![complete_bubble](https://github.com/user-attachments/assets/2589d1a1-4b44-4f6a-83b0-8ffd2c30fe51)
-![complete_bubble](https://github.com/user-attachments/assets/1cd5ca3f-778e-4439-aebc-618ba84fa203)
+        swapped = false;
 
         for (int j = 0; j + 1 < size; j++) {
             if (arr[j] > arr[j+1]) {

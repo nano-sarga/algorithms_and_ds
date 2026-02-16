@@ -5,6 +5,10 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(algorithms_and_ds
         main.cpp
-        sort.h
-        run.h
-        run.cpp)
+        bubble.h
+        input.h
+        registry.h
+        register.h
+        runner.h
+        menu.h
+)

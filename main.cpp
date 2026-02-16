@@ -1,6 +1,9 @@
-#include "run.h"
+#include "input.h"
+#include "bubble.h"
+#include "menu.h"
+
 
 int main() {
-    run_bubble();
+    type_menu();
     return 0;
 }

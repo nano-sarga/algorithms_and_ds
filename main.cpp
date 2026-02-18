@@ -1,6 +1,5 @@
-#include "input.h"
-#include "bubble.h"
 #include "menu.h"
+#include "bubble.h"
 
 
 int main() {

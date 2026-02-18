@@ -8,7 +8,7 @@ template <typename T>
 void run_sort(void (*func)(std::vector<T>&)) {
     int size = input_size();
     std::vector<T> vec(size);
-    initialise_vector(vec);
+    input_vector(vec);
     func(vec);
 
     std::cout << "Vector after applying the algorithm:\n";

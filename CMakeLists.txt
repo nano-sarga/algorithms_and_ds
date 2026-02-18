@@ -1,14 +1,17 @@
-cmake_minimum_required(VERSION 4.1)
+cmake_minimum_required(VERSION 3.16)
 project(algorithms_and_ds)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(algorithms_and_ds
+file(GLOB_RECURSE ALGO_SOURCES algorithms/*.cpp)
+
+add_executable(program
         main.cpp
-        bubble.h
-        input.h
-        registry.h
-        register.h
-        runner.h
-        menu.h
+        ${ALGO_SOURCES}
+)
+
+target_include_directories(program PRIVATE
+        ${PROJECT_SOURCE_DIR}
+        ${PROJECT_SOURCE_DIR}/algorithms
 )

@@ -1,9 +1,10 @@
 #ifndef MENU_H
 #define MENU_H
-#include "register.h"
+#include "registry.h"
 #include "runner.h"
-#include <iostream>
 #include <vector>
+#include <iostream>
+#include <string>
 
 template <typename T>
 void algorithm_menu () {
@@ -19,7 +20,7 @@ void algorithm_menu () {
 
     int choice;
     std::cin >> choice;
-    if (choice < 0 || choice > names.size()) {
+    if (choice < 1 || choice > static_cast<int>(names.size())) {
         std::cout << "Invalid choice!\n";
         return;
     }

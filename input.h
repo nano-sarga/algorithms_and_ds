@@ -20,7 +20,7 @@
 template <typename T>
 void input_vector(std::vector<T>& vec) {
     std::cout << "Input vector elements:\n";
-    for (auto x : vec) {
+    for (auto& x : vec) {
         std::cin >> x;
     }
 }
@@ -30,6 +30,7 @@ void display_vector(const std::vector<T>& vec) {
     for (auto x : vec) {
         std::cout << x << ' ';
     }
+     std::cout << std::endl;
 }
 
 #endif //INPUT_H

@@ -1,7 +1,6 @@
 #ifndef ALGORITHMS_AND_DS_BUBBLE_H
 #define ALGORITHMS_AND_DS_BUBBLE_H
 #include <vector>
-#include "register.h"
 
 template <typename T>
 void my_swap(T& a, T& b) {
@@ -25,6 +24,5 @@ void bubble(std::vector<T>& vec) {
     } while (swapped);
 }
 
-static AutoRegisterAll<int, double, char, std::string> reg_bubble("Bubble", bubble<int>);
 
 #endif //ALGORITHMS_AND_DS_BUBBLE_H

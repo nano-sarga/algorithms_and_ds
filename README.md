@@ -69,7 +69,8 @@ It works similarly to how you sort cards in your hand — you take one card and 
 4. Insert the element into its correct place.
 5. Repeat until the whole array is sorted.
 
-![insrtion_sort](https://github.com/user-attachments/assets/3671b9f1-e2d6-4f29-8656-40467ff57e47)
+![insertion_sort_gif](https://github.com/user-attachments/assets/69e4564b-c6c7-4851-b1ef-d0f94f4e02a7)
+
 
 
 ### Example in C++ 모

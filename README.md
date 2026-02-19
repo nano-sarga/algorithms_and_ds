@@ -69,6 +69,9 @@ It works similarly to how you sort cards in your hand — you take one card and 
 4. Insert the element into its correct place.
 5. Repeat until the whole array is sorted.
 
+![insrtion_sort](https://github.com/user-attachments/assets/3671b9f1-e2d6-4f29-8656-40467ff57e47)
+
+
 ### Example in C++ 모
 ```cpp
 template <typename T>

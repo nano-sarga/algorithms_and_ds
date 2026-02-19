@@ -9,6 +9,12 @@ file(GLOB_RECURSE ALGO_SOURCES algorithms/*.cpp)
 add_executable(program
         main.cpp
         ${ALGO_SOURCES}
+        algorithms/insertion.h
+        algorithms/insertion_register.cpp
+        algorithms/selection_register.cpp
+        algorithms/selection.h
+        algorithms/merge_register.cpp
+        algorithms/merge.h
 )
 
 target_include_directories(program PRIVATE

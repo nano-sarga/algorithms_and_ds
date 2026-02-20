@@ -106,6 +106,9 @@ It divides the array into two parts: sorted and unsorted.
 3. Move the boundary of the sorted section one step right.
 4. Repeat until the array is fully sorted.
 
+![selecton_sort](https://github.com/user-attachments/assets/a4a16fe8-5b18-4986-a705-b50eefce50dc)
+
+
 ### Example in C++ 모
 ```cpp
 template <typename T>

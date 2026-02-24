@@ -18,6 +18,16 @@ Algoritms........
 + Languages: C/C++
 + Tools: Git, CLion
 
+## Build and run
+Run the program by launching the compiled executable file from the project directory in the terminal.
+```
+mkdir build
+cd build
+cmake ..
+make
+./program
+```
+
 ## Bubble Sort . ⋆｡𖦹 ˚ 𓇼 ˚｡⋆
 
 Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, 

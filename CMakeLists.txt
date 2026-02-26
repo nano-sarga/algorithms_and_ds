@@ -15,7 +15,7 @@ add_executable(program
         algorithms/selection.h
         algorithms/merge_register.cpp
         algorithms/merge.h
-        heap.h
+        algorithms/heap.h
         algorithms/heap_register.cpp
         algorithms/quick.h
         algorithms/quick_register.cpp
